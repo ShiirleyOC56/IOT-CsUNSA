@@ -1,7 +1,7 @@
 # CURSO DE INTERNET DE LAS COSAS
-## Docente:
+### Docente:
 - Pablo Cesar Calcina Ccori
-## Integrantes:
+### Integrantes:
 - Thales Panibra Mamani
 - Jean CarlosSoncco Lupa
 - Shirley Oxa Cacya
