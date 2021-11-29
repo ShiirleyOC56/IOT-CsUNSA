@@ -27,6 +27,9 @@ node-red-node-mysql
 Asi mismo debemos modificar la dirección IP de docker para realizar la conexión
 con MQTT y la de MySQL
 
+Luego cargamos la base de datos en http://127.0.0.1:8080 el usuario es `root` y
+la contraseña es `admin`
+
 ## 3 Test
 
 podemos realizar una petición de tipo POST de la siguiente manera
