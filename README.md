@@ -24,6 +24,9 @@ node red, aqui podemos importar el archivo tareaIOT pero necesitamos configurar
 la base de datos para lo cual debe ir a 'manage palette' e instalamos
 node-red-node-mysql
 
+Asi mismo debemos modificar la dirección IP de docker para realizar la conexión
+con MQTT y la de MySQL
+
 ## 3 Test
 
 podemos realizar una petición de tipo POST de la siguiente manera
