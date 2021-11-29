@@ -3,7 +3,7 @@
 - Pablo Cesar Calcina Ccori
 ### Integrantes:
 - Thales Panibra Mamani
-- Jean CarlosSoncco Lupa
+- Jean Carlos Soncco Lupa
 - Shirley Oxa Cacya
 - Junior Gomez Contreras
 ## 1. Requerimientos
