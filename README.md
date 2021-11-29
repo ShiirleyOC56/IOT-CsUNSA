@@ -19,20 +19,19 @@ docker network create red_local
 docker-compose up -d
 
 ```
-una vez creado podemos dirigirnos a http://127.0.0.1:1880 el cual nos mostrara
-node red, aqui podemos importar el archivo tareaIOT pero necesitamos configurar
+una vez creado podemos dirigirnos a http://127.0.0.1:1880 el cual nos mostrará
+node red, aquí podemos importar el archivo **tareaIOT** pero necesitamos configurar
 la base de datos para lo cual debe ir a 'manage palette' e instalamos
-node-red-node-mysql
+**node-red-node-mysql**
 
-Asi mismo debemos modificar la dirección IP de docker para realizar la conexión
-con MQTT y la de MySQL
+Así mismo debemos modificar la dirección IP de docker para realizar la conexión
+con MQTT y la de MySQL.
 
 Luego cargamos la base de datos en http://127.0.0.1:8080 el usuario es `root` y
 la contraseña es `admin`
 
 ## 3 Test
-
-podemos realizar una petición de tipo POST de la siguiente manera
+Podemos realizar una petición de tipo POST de la siguiente manera
 
 ```
 curl -X POST "http://localhost:1880/pub/thingsData/payload" -i
