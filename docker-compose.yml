@@ -1,0 +1,40 @@
+version: "3.8"
+services:
+  nodered:
+    container_name: node-red-iot
+    image: nodered/node-red:latest
+    restart: always
+    ports:
+    - 1880:1880
+
+  mosquitto:
+    container_name: mosquitto-iot
+      #image: emqx/emqx:4.2.3
+    image: eclipse-mosquitto:1.6
+    restart: always
+    ports:
+      #- 18083:18083
+      #- 8083:8083
+      - 9001:9001
+      - 1883:1883
+
+  db:
+    image: mariadb:10.3
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+    ports:
+      - 3306:3306
+
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      - PMA_ARBITRARY=1
+
+networks:
+  default:
+    external:
+      name: red_local
