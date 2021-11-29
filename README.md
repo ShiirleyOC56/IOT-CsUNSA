@@ -10,7 +10,7 @@
 ### Docker
 Para la instalación se siguió los pasos de la página web de Docker:
   - Docker: [Instalación de Docker](https://docs.docker.com/engine/install/ubuntu/)
-  - Docker - compose: [Instalacion de Docker -Compose](https://docs.docker.com/compose/install/)
+  - Docker - compose: [Instalación de Docker -Compose](https://docs.docker.com/compose/install/)
 ## 2. Compilación
 Para compilar seguir los siguientes paso:
 ```
