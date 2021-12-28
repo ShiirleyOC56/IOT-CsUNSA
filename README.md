@@ -6,6 +6,7 @@
 - Jean Carlos Soncco Lupa
 - Shirley Oxa Cacya
 - Junior Gomez Contreras
+- Alexander Córdova Ccana
 ## 1. Requerimientos
 ### Docker
 Para la instalación se siguió los pasos de la página web de Docker:
